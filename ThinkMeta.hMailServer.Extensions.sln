@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionFiles", "SolutionFiles", "{772F479D-FAB9-47A4-A9C0-1A72D79D1175}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThinkMeta.hMailServer.Events.Interface", "ThinkMeta.hMailServer.Events.Interface\ThinkMeta.hMailServer.Events.Interface.csproj", "{3AA77232-59E0-4479-9117-E8CDB14374C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThinkMeta.hMailServer.Events.Gateway", "ThinkMeta.hMailServer.Events.Gateway\ThinkMeta.hMailServer.Events.Gateway.csproj", "{FF9C80C9-B77F-4D51-A53F-2B78D507490D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{E96AC097-DF9C-4C18-8396-272328B58576}"
+	ProjectSection(SolutionItems) = preProject
+		Scripts\EventHandlers.vbs = Scripts\EventHandlers.vbs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3AA77232-59E0-4479-9117-E8CDB14374C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AA77232-59E0-4479-9117-E8CDB14374C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AA77232-59E0-4479-9117-E8CDB14374C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AA77232-59E0-4479-9117-E8CDB14374C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF9C80C9-B77F-4D51-A53F-2B78D507490D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF9C80C9-B77F-4D51-A53F-2B78D507490D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF9C80C9-B77F-4D51-A53F-2B78D507490D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF9C80C9-B77F-4D51-A53F-2B78D507490D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,11 @@
+<Project>
+    <PropertyGroup>
+        <BaseOutputPath>$(SolutionDir)build\$(Configuration)\bin\</BaseOutputPath>
+        <OutputPath>$(SolutionDir)build\$(Configuration)\bin\</OutputPath>
+        <BaseIntermediateOutputPath>$(SolutionDir)build\$(Configuration)\obj\$(MSBuildProjectName)\</BaseIntermediateOutputPath>
+        <IntermediateOutputPath>$(SolutionDir)build\$(Configuration)\obj\$(MSBuildProjectName)\</IntermediateOutputPath>
+        <GenerateAssemblyInfo Condition="'$(GenerateAssemblyInfo)' == ''">false</GenerateAssemblyInfo>
+        <TargetFrameworks>net48;net9.0</TargetFrameworks>
+        <LangVersion>13</LangVersion>
+    </PropertyGroup>
+</Project>
